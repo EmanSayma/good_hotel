@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Deal;
 
 class DealController extends Controller
 {
     public function index()
     {
-        return view('index');
+        return view('index')
+              ->with(['deals' => Deal::latest()->get()]);
     }
 }

@@ -1,18 +1,20 @@
 @import "~bootstrap/scss/bootstrap";
 @import "pages/request.scss";
+@import "pages/thank_you.scss";
+@import "index.scss";
+
+@font-face { 
+    font-family: 'Stolzl'; src: url('/fonts/Stolzl.tff');
+     }
+
 
 body {
     background: white;
-    font-family: 'stolzl', sans-serif;
+    font-family: 'Stolzl', sans-serif;
 }
 
 form {
     margin-top: 10px;
-}
-
-.header-logo {
-    margin-top: -1px;
-    margin-left: 108px;
 }
 
 .jumbotron {
@@ -30,7 +32,6 @@ form {
 
 .deals {
     position: absolute;
-   // width: 306px;
     height: 1211px;
     left: 7px;
     top: 355px;
@@ -61,11 +62,6 @@ form {
 }
 
 .card{
-    position: absolute;
-    width: 141px;
-    height: 220px;
     left: 16px;
-    top: 492px;
-
     background: #FFFFFF;
 }

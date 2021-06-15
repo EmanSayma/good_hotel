@@ -10879,18 +10879,92 @@ textarea.form-control-lg {
   color: #808080;
 }
 
-body {
-  background: white;
-  font-family: "stolzl", sans-serif;
+.rectangle {
+  position: absolute;
+  width: 306px;
+  height: 285px;
+  left: 7px;
+  top: 51px;
+  background: #F1F1F1;
 }
 
-form {
-  margin-top: 10px;
+.thank-you {
+  position: absolute;
+  width: 242px;
+  height: 24px;
+  left: 33px;
+  top: 122px;
+  font-family: Stolzl;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  color: #000000;
+}
+
+.thank-you-message {
+  position: absolute;
+  width: 242px;
+  height: 48px;
+  left: 33px;
+  top: 154px;
+  font-family: Stolzl;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 200% */
+  text-align: center;
+  color: #000000;
+}
+
+button {
+  position: static;
+  height: 24px;
+  left: 40px;
+  right: 40px;
+  top: calc(50% - 24px/2);
+  font-family: Stolzl;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  text-align: center;
+  /* White */
+  color: #FFFFFF;
 }
 
 .header-logo {
   margin-top: -1px;
   margin-left: 108px;
+}
+
+.welcome {
+  left: 88px;
+  font-family: Stolzl;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  /* identical to box height, or 143% */
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@font-face {
+  font-family: "Stolzl";
+  src: url("/fonts/Stolzl.tff");
+}
+body {
+  background: white;
+  font-family: "Stolzl", sans-serif;
+}
+
+form {
+  margin-top: 10px;
 }
 
 .jumbotron {
@@ -10929,4 +11003,9 @@ form {
   /* identical to box height, or 200% */
   text-align: center;
   color: #000000;
+}
+
+.card {
+  left: 16px;
+  background: #FFFFFF;
 }
