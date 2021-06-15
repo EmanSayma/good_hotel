@@ -23,7 +23,7 @@ stay at the Good Hotel. </p>
     </div>
 </div>
 
-<div class="deals mt-0">
+<div class="deals">
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item">
             <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Featured</a>

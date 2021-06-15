@@ -17,3 +17,41 @@
     color: #FFFFFF;
 }
 
+.take-deal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 21px;
+
+    position: absolute;
+    width: 128px;
+    height: 48px;
+    left: 169px;
+    bottom: 20px;
+
+    /* Oaky */
+
+    background: #FF6A00;
+    border-radius: 100px;
+}
+
+.take-deal-text {
+    position: static;
+height: 24px;
+left: 26.5px;
+right: 26.5px;
+top: calc(50% - 24px/2);
+
+font-family: Stolzl;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+text-align: center;
+
+/* White */
+
+color: #FFFFFF;
+}
