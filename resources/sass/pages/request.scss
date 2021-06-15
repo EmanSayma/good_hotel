@@ -1,0 +1,61 @@
+.deal-card-img {
+    position: absolute;
+    width: 79px;
+    height: 62px;
+    left: 40px;
+    top: 160px;
+
+    border-radius: 2px;
+}
+
+.deal-card {
+    position: absolute;
+    width: 272px;
+    height: 94px;
+    left: 24px;
+    top: 144px;
+
+    background: #FFFFFF;
+    border: 1px solid #CED5D9;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+
+
+
+.deal-card-title {
+    position: absolute;
+    width: 149px;
+    height: 16px;
+    left: 131px;
+    top: 163px;
+
+    font-family: Stolzl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height, or 123% */
+
+
+    color: #1A1A1A;
+}
+
+.deal-card-description {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 131px;
+    top: 183px;
+    
+    font-family: Stolzl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    /* or 138% */
+    
+    
+    color: #808080;
+}

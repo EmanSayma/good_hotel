@@ -1,0 +1,68 @@
+.rectangle {  
+    position: absolute;
+    width: 306px;
+    height: 285px;
+    left: 7px;
+    top: 51px;
+
+    background: #F1F1F1;
+}
+
+.thank-you {
+    position: absolute;
+    width: 242px;
+    height: 24px;
+    left: 33px;
+    top: 122px;
+
+    font-family: Stolzl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.thank-you-message {
+    position: absolute;
+    width: 242px;
+    height: 48px;
+    left: 33px;
+    top: 154px;
+
+    font-family: Stolzl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    /* or 200% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+button {
+    position: static;
+    height: 24px;
+    left: 40px;
+    right: 40px;
+    top: calc(50% - 24px/2);
+
+    font-family: Stolzl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    /* White */
+
+    color: #FFFFFF;
+}

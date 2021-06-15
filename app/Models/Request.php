@@ -9,6 +9,8 @@ class Request extends Model
 {
     use HasFactory;
 
+    protected $guarded = [];
+
     public function deal()
     {
         return $this->belongsTo(Deal::class);
