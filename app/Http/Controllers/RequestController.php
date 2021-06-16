@@ -10,12 +10,18 @@ class RequestController extends Controller
 {
     public function create(Deal $deal)
     {
-       // dd($deal->id);
-        return view('pages.request')->with(['dealId'=> $deal->id]);
+        return view('pages.request')->with(['deal'=> $deal]);
     }
 
     public function store(Request $request)
     {
+        $validated = $request->validate([
+            'start_date' => 'required',
+            'end_date' => 'required',
+            'amount' => 'required',
+            'room_number' => 'required'
+        ]);
+    
         $dealRequest = new DealRequest([
            'deal_id' => request('deal_id'),
            'start_date' => request('start_date'),

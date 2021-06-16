@@ -6,7 +6,7 @@
 
         <title>GOOD HOTEL</title>
 
-        <link href= {{ asset('css/app.css') }} rel="stylesheet">      
+        <link href= {{ asset('css/app.css') }} rel="stylesheet"> 
     </head>
     <body>
         <div class="container">

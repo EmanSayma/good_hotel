@@ -1,10 +1,15 @@
-.deal-card-img {
-    position: absolute;
-    width: 79px;
-    height: 62px;
-    left: 40px;
-    top: 160px;
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
 
+.card {
+    border: 1px solid #CED5D9;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.deal-card-img {
     border-radius: 2px;
 }
 
@@ -22,40 +27,96 @@
     border-radius: 4px;
 }
 
-
-
-.deal-card-title {
-    position: absolute;
-    width: 149px;
-    height: 16px;
-    left: 131px;
-    top: 163px;
-
-    font-family: Stolzl;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 16px;
-    /* identical to box height, or 123% */
-
-
+.card-title {
     color: #1A1A1A;
 }
 
-.deal-card-description {
-    position: absolute;
-    width: 149px;
-    height: 36px;
-    left: 131px;
-    top: 183px;
-    
+.card-text {
+    color: #808080;
+}
+
+.request-deal-title{
+    position: static;
+    width: 272px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+
     font-family: Stolzl;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
-    line-height: 18px;
-    /* or 138% */
-    
-    
-    color: #808080;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+
+    /* Black */
+
+    color: #1A1A1A;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.request-deal-desc {
+    position: static;
+    width: 272px;
+    height: 48px;
+    left: 0px;
+    top: 48px;
+
+    font-family: Stolzl;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+
+    color: #3D474D;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+input {
+    left: 0px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    border: 1px solid #CED5D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.btn-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-continue {
+    background-color: #FF6A00;
+    border-radius: 100px;
+    align-items: center;
+    padding: 12px, 21px, 12px, 21px;
+    width: 128px; 
+    height: 48px;
+    border: none;
+    &:hover, &:focus {
+        background-color: #FF6A00;
+    }
+}
+
+.btn-light {
+    border-radius: 100px;
+    padding: 5px;
+    border: 1px solid #E5E5E5;
 }
